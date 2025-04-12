@@ -5,7 +5,8 @@ import (
 	"strings"
 )
 
-// CommonPathWin returns the longest common sub-path given a sequence of path names.
+// CommonPathWin returns the longest common sub-path given a sequence of path
+// names on Windows.
 func CommonPathWin(paths []string) (string, error) {
 	if len(paths) == 0 {
 		return "", errors.New("CommonPathWin() arg is an empty iterable")

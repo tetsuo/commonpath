@@ -5,7 +5,8 @@ import (
 	"strings"
 )
 
-// CommonPathUnix returns the longest common sub-path given a sequence of path names.
+// CommonPathUnix returns the longest common sub-path given a sequence of path
+// names on Unix-like systems.
 func CommonPathUnix(paths []string) (string, error) {
 	n := len(paths)
 
